@@ -9,8 +9,11 @@ body {
 
 .App-header {
   padding-top: 20px;
-  min-height: 200vh;
   margin-right: calc(10px + 2vmin);
   margin-left: calc(10px + 2vmin);
   font-size: calc(10px + 2vmin);
+}
+.App-main {
+  margin-top: 100px;
+  margin-left: 40px;
 }

@@ -1,0 +1,28 @@
+.main-content {
+  display: flex;
+  .main-1st-part {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    .title {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 60px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .desc {
+      margin-top: 20px;
+      font-size: 16px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer {
+      margin-top: 220px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .main-2nd-part {
+    margin-left: 40px;
+  }
+}
