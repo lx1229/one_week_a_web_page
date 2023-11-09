@@ -1,0 +1,22 @@
+.header-content {
+  display: flex;
+  flex-shrink: 1;
+  .header-title {
+    font-size: 24px;
+    font-weight: light;
+  }
+  .header-menu {
+    margin: auto;
+    display: inline-flex;
+    flex: 0.4 auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+  }
+  .header-sign-up {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 150px;
+  }
+}
