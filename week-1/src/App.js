@@ -1,6 +1,7 @@
 import "./App.css";
 import { Header } from "./pages/header/Header";
 import { Main } from "./pages/main/Main";
+import { Footer } from "./pages/footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,11 @@ function App() {
       <div className="App-main">
         <Main></Main>
       </div>
-      <div className="App-footer"></div>
+      <div className="App-footer">
+        <Footer />
+        <Footer />
+        <Footer />
+      </div>
     </div>
   );
 }

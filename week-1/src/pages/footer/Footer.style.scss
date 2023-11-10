@@ -1,0 +1,30 @@
+.footer-footer {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  .footer-first-line {
+    display: flex;
+    justify-content: space-evenly;
+    &:nth-child(2) {
+      span {
+        margin: auto;
+      }
+    }
+  }
+  .footer-second-line {
+    margin: auto;
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+  }
+  .footer-third-line {
+    display: flex;
+    justify-content: space-evenly;
+    &:nth-child(2) {
+      span {
+        margin: auto;
+      }
+    }
+  }
+}

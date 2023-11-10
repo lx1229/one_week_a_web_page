@@ -3,26 +3,39 @@
   .main-1st-part {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     .title {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: "Times New Roman", Times, serif;
+      font-weight: bold;
       font-size: 60px;
       display: flex;
       flex-wrap: wrap;
     }
     .desc {
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: oblique;
       margin-top: 20px;
       font-size: 16px;
       display: flex;
       flex-wrap: wrap;
     }
     .footer {
-      margin-top: 220px;
+      flex: 1 0 auto;
+      align-items: flex-end;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
+      bottom: 0px;
     }
   }
   .main-2nd-part {
     margin-left: 40px;
+  }
+
+  .main-3rd-part {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 }

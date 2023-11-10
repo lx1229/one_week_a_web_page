@@ -1,5 +1,6 @@
 import "./main.style.scss";
 import Astronauts from "../../img/astronauts.png";
+import { InfoTab } from "./components/info-tab/InfoTab";
 export const Main = () => {
   return (
     <div className="main-content">
@@ -21,9 +22,14 @@ export const Main = () => {
         </div>
       </div>
       <div className="main-2nd-part">
-        <img src={Astronauts} alt="astronauts from Russian" />
+        <img src={Astronauts} alt="astronauts from Russian" width={410} />
       </div>
-      <div></div>
+      <div className="main-3rd-part">
+        <InfoTab />
+        <InfoTab />
+        <InfoTab />
+        <InfoTab />
+      </div>
     </div>
   );
 };

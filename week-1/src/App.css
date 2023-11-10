@@ -5,6 +5,8 @@ body {
 .App {
   background-color: #000000;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
@@ -16,4 +18,9 @@ body {
 .App-main {
   margin-top: 100px;
   margin-left: 40px;
+}
+.App-footer {
+  display: flex;
+  margin-top: 42px;
+  justify-content: space-around;
 }

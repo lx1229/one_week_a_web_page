@@ -1,0 +1,33 @@
+.info-tab-item {
+  display: flex;
+  margin-left: 40px;
+  .info-tab-desc {
+    display: flex;
+    flex-direction: column;
+    .desc-first-line {
+      display: flex;
+      justify-content: space-evenly;
+      &:nth-child(2) {
+        span {
+          margin: auto;
+        }
+      }
+    }
+    .desc-second-line {
+      margin: auto;
+      padding-left: 20px;
+      font-size: 24px;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: bolder;
+    }
+    .desc-third-line {
+      display: flex;
+      justify-content: space-evenly;
+      &:nth-child(2) {
+        span {
+          margin: auto;
+        }
+      }
+    }
+  }
+}
